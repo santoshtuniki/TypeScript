@@ -1,0 +1,18 @@
+In Windows Powershell:
+----------------------------
+1. Open Windows Powershell and run "Get-ExecutionPolicy -List".
+
+2. We have to make the LocalMachine ExecutionPolicy Unrestricted. 
+
+3. To do so, run the command "Set-ExecutionPolicy Unrestricted" and type Y to confirm the changes.
+
+4. Run the command 'Get-ExecutionPolicy -List' to see the changes done.
+
+
+In Visual Studio Code:
+---------------------------
+1. Run "tsc filename.ts"
+
+2. This generates the 'compiled' file of the same file in ".js" format in the same location.
+
+3. Run the .js file as you normally do: "node filename.js"
